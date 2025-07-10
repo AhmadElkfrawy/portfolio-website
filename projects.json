@@ -1,0 +1,24 @@
+[
+    {
+        "title": {
+            "en": "RNA-seq Analysis Pipeline",
+            "ar": "خط أنابيب تحليل RNA-seq"
+        },
+        "tools": "FastQC, STAR, DESeq2",
+        "description": {
+            "en": "A simple pipeline to analyze differential gene expression.",
+            "ar": "خط أنابيب بسيط لتحليل التعبير الجيني التفاضلي."
+        }
+    },
+    {
+        "title": {
+            "en": "Variant Calling Project",
+            "ar": "مشروع استدعاء المتغيرات"
+        },
+        "tools": "BWA, GATK, IGV",
+        "description": {
+            "en": "Identify SNPs and indels from whole genome data.",
+            "ar": "تحديد تعدد الأشكال النوكليوتيدية المفردة (SNPs) والإنديلات (indels) من بيانات الجينوم الكامل."
+        }
+    }
+]
