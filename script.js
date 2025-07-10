@@ -7,7 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function translatePage(lang) {
         elementsToTranslate.forEach(el => {
-            el.textContent = el.dataset[lang];
+            if (el.tagName === 'UL') {
+                el.innerHTML = el.dataset[lang];
+            } else {
+                el.textContent = el.dataset[lang];
+            }
         });
         langSwitcher.textContent = lang === 'en' ? 'العربية' : 'English';
     }
@@ -24,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h3>${project.title[lang]}</h3>
                         <p><strong>Tools:</strong> ${project.tools}</p>
                         <p>${project.description[lang]}</p>
+                        <a href="${project.link}" target="_blank" class="project-link">View Project</a>
                     `;
                     projectsContainer.appendChild(projectEl);
                 });

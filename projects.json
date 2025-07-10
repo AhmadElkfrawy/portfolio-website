@@ -1,24 +1,38 @@
 [
     {
         "title": {
-            "en": "RNA-seq Analysis Pipeline",
-            "ar": "خط أنابيب تحليل RNA-seq"
+            "en": "Project 1: Awesome Bioinformatics Tool",
+            "ar": "المشروع الأول: أداة معلوماتية حيوية رائعة"
         },
-        "tools": "FastQC, STAR, DESeq2",
+        "tools": "Python, Biopython, Pandas",
         "description": {
-            "en": "A simple pipeline to analyze differential gene expression.",
-            "ar": "خط أنابيب بسيط لتحليل التعبير الجيني التفاضلي."
-        }
+            "en": "This is a description of my first awesome bioinformatics project. It does amazing things with DNA sequences.",
+            "ar": "هذا وصف لمشروعي الأول الرائع في المعلوماتية الحيوية. يقوم بأشياء مذهلة مع تسلسل الحمض النووي."
+        },
+        "link": "#"
     },
     {
         "title": {
-            "en": "Variant Calling Project",
-            "ar": "مشروع استدعاء المتغيرات"
+            "en": "Project 2: Cancer Data Analysis",
+            "ar": "المشروع الثاني: تحليل بيانات السرطان"
         },
-        "tools": "BWA, GATK, IGV",
+        "tools": "R, ggplot2, DESeq2",
         "description": {
-            "en": "Identify SNPs and indels from whole genome data.",
-            "ar": "تحديد تعدد الأشكال النوكليوتيدية المفردة (SNPs) والإنديلات (indels) من بيانات الجينوم الكامل."
-        }
+            "en": "In this project, I analyzed cancer patient data to find differentially expressed genes.",
+            "ar": "في هذا المشروع، قمت بتحليل بيانات مرضى السرطان للعثور على الجينات المعبر عنها بشكل تفاضلي."
+        },
+        "link": "#"
+    },
+    {
+        "title": {
+            "en": "Project 3: NGS Pipeline",
+            "ar": "المشروع الثالث: خط أنابيب NGS"
+        },
+        "tools": "Nextflow, Docker, GATK",
+        "description": {
+            "en": "I built a complete NGS pipeline for variant calling from raw sequencing data.",
+            "ar": "لقد بنيت خط أنابيب NGS كامل لاستدعاء المتغيرات من بيانات التسلسل الأولية."
+        },
+        "link": "#"
     }
 ]
