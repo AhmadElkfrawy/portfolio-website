@@ -1,10 +1,38 @@
 document.addEventListener('DOMContentLoaded', () => {
     const langSwitcher = document.getElementById('lang-switcher');
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
     const elementsToTranslate = document.querySelectorAll('[data-en]');
     const projectsContainer = document.getElementById('projects-container');
 
     let currentLang = 'en';
 
+    // Dark Mode functionality
+    const enableDarkMode = () => {
+        document.body.classList.add('dark-mode');
+        darkModeToggle.innerHTML = '<i class="fas fa-sun"></i>'; // Sun icon for light mode
+        localStorage.setItem('darkMode', 'enabled');
+    };
+
+    const disableDarkMode = () => {
+        document.body.classList.remove('dark-mode');
+        darkModeToggle.innerHTML = '<i class="fas fa-moon"></i>'; // Moon icon for dark mode
+        localStorage.setItem('darkMode', 'disabled');
+    };
+
+    // Check local storage for dark mode preference
+    if (localStorage.getItem('darkMode') === 'enabled') {
+        enableDarkMode();
+    }
+
+    darkModeToggle.addEventListener('click', () => {
+        if (document.body.classList.contains('dark-mode')) {
+            disableDarkMode();
+        } else {
+            enableDarkMode();
+        }
+    });
+
+    // Language switching functionality
     function translatePage(lang) {
         elementsToTranslate.forEach(el => {
             if (el.tagName === 'UL') {
