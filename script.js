@@ -73,3 +73,4 @@ document.addEventListener('DOMContentLoaded', () => {
     translatePage(currentLang);
     loadProjects(currentLang);
 });
+/* Cache bust: 2025-07-10 15:30:00 */
