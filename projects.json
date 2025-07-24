@@ -1,6 +1,16 @@
 [
     {
         "title": {
+            "en": "Calculator Project"
+        },
+        "tools": "Python, Tkinter",
+        "description": {
+            "en": "A simple calculator built with Python and the Tkinter library."
+        },
+        "link": "https://github.com/AhmadElkfrawy/calculator_project"
+    },
+    {
+        "title": {
             "en": "Project 1: Awesome Bioinformatics Tool"
         },
         "tools": "Python, Biopython, Pandas",
