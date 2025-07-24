@@ -28,5 +28,15 @@
             "en": "I built a complete NGS pipeline for variant calling from raw sequencing data."
         },
         "link": "#"
+    },
+    {
+        "title": {
+            "en": "Calculator Project"
+        },
+        "tools": "Python",
+        "description": {
+            "en": "A simple text-based calculator that performs basic arithmetic operations. This project demonstrates understanding of basic Python logic, including loops, conditionals, and error handling."
+        },
+        "link": "https://github.com/AhmadElkfrawy/portfolio-website/tree/main/calculator_project"
     }
 ]
