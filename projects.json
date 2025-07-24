@@ -3,40 +3,10 @@
         "title": {
             "en": "Calculator Project"
         },
-        "tools": "Python, Tkinter",
+        "tools": "Python",
         "description": {
-            "en": "A simple calculator built with Python and the Tkinter library."
+            "en": "A simple calculator built with Python."
         },
         "link": "https://github.com/AhmadElkfrawy/calculator_project"
-    },
-    {
-        "title": {
-            "en": "Project 1: Awesome Bioinformatics Tool"
-        },
-        "tools": "Python, Biopython, Pandas",
-        "description": {
-            "en": "This is a description of my first awesome bioinformatics project. It does amazing things with DNA sequences."
-        },
-        "link": "#"
-    },
-    {
-        "title": {
-            "en": "Project 2: Cancer Data Analysis"
-        },
-        "tools": "R, ggplot2, DESeq2",
-        "description": {
-            "en": "In this project, I analyzed cancer patient data to find differentially expressed genes."
-        },
-        "link": "#"
-    },
-    {
-        "title": {
-            "en": "Project 3: NGS Pipeline"
-        },
-        "tools": "Nextflow, Docker, GATK",
-        "description": {
-            "en": "I built a complete NGS pipeline for variant calling from raw sequencing data."
-        },
-        "link": "#"
     }
 ]
