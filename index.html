@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Hamada - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">Ahmed Hamada</h1>
+                <ul class="nav-links">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                <button id="dark-mode-toggle"><i class="fas fa-moon"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="my_photo.png" alt="Profile Photo" class="profile-photo">
+                <div>
+                    <p>My name is Ahmed Hamada, and I am building my career in Bioinformatics with a background in Biochemistry and Biology.</p>
+                    <p>I focus on applying computational tools to biological data, with skills in:</p>
+                    <ul class="about-skills-list">
+                        <li>Python programming</li>
+                        <li>Linux command line</li>
+                        <li>Next-Generation Sequencing (NGS) workflows</li>
+                        <li>RNA-Seq data analysis</li>
+                    </ul>
+                    <p>My goal is to integrate biology and computation to analyze complex datasets and support advances in life sciences and healthcare research.</p>
+                    <p><a href="documents/generic_cv.pdf" target="_blank" class="cv-link">Download CV</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Linux</li>
+                <li>Next-Generation Sequencing</li>
+                <li>Git & GitHub</li>
+                <li>Research in Databases</li>
+                <li>Multisequence Alignment</li>
+                <li>Phylogenetic Tree</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- Python Basics Projects -->
+                <div class="project-category-card python-basics">
+                    <div class="category-header">
+                        <i class="fas fa-code category-icon"></i>
+                        <h3>Python Projects</h3>
+                    </div>
+                    <p class="category-description">A collection of my projects in Python, covering core concepts like loops, data structures, and object-oriented programming.</p>
+                    <div class="projects-list">
+                        <div class="project-card">
+                            <h4>Calculator Project</h4>
+                            <p>A simple calculator built with Python.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/AhmadElkfrawy/calculator_project" target="_blank" class="project-link"><i class="fab fa-github"></i> View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h4>Password Generator</h4>
+                            <p>A tool to generate secure passwords.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/AhmadElkfrawy/password-generator" target="_blank" class="project-link"><i class="fab fa-github"></i> View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- General Bioinformatics Projects -->
+                <div class="project-category-card general-bioinformatics">
+                    <div class="category-header">
+                        <i class="fas fa-dna category-icon"></i>
+                        <h3>General Bioinformatics Projects</h3>
+                    </div>
+                    <p class="category-description">Projects demonstrating common bioinformatics tasks, including NGS data processing, multiple sequence alignments, and phylogenetic analysis.</p>
+                    <div class="projects-list">
+                        <p class="no-projects">More projects coming soon!</p>
+                    </div>
+                </div>
+
+                <!-- Specialized Bioinformatics Projects -->
+                <div class="project-category-card specialized-bioinformatics">
+                    <div class="category-header">
+                        <i class="fas fa-microscope category-icon"></i>
+                        <h3>Specialized Bioinformatics Projects</h3>
+                    </div>
+                    <p class="category-description">Advanced projects focusing on specific research areas such as RNA-Seq differential expression analysis.</p>
+                    <div class="projects-list">
+                        <p class="no-projects">More projects coming soon!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <div class="contact-links">
+                <a href="https://github.com/AhmadElkfrawy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/ahmad-elkfrawy/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:ahmadelkfrawy46@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://wa.me/201014542871" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ahmed Hamada</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

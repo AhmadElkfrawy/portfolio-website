@@ -1,0 +1,22 @@
+[
+    {
+        "title": {
+            "en": "Calculator Project"
+        },
+        "tools": "Python",
+        "description": {
+            "en": "A simple calculator built with Python."
+        },
+        "link": "https://github.com/AhmadElkfrawy/calculator_project"
+    },
+    {
+        "title": {
+            "en": "Password Generator"
+        },
+        "tools": "Python",
+        "description": {
+            "en": "A tool to generate secure passwords."
+        },
+        "link": "https://github.com/AhmadElkfrawy/password-generator"
+    }
+]
