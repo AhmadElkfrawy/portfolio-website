@@ -35,12 +35,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 projectsContainer.innerHTML = '';
                 data.forEach(project => {
                     const projectEl = document.createElement('div');
-                    projectEl.classList.add('project');
+                    projectEl.classList.add('project-card');
                     projectEl.innerHTML = `
-                        <h3>${project.title.en}</h3>
-                        <p><strong>Tools:</strong> ${project.tools}</p>
+                        <h4>${project.title.en}</h4>
                         <p>${project.description.en}</p>
-                        <a href="${project.link}" target="_blank" class="project-link">View Project</a>
+                        <div class="project-links">
+                            <a href="${project.link}" target="_blank" class="project-link"><i class="fab fa-github"></i> View Project</a>
+                        </div>
                     `;
                     projectsContainer.appendChild(projectEl);
                 });
